@@ -1,0 +1,16 @@
+A Program to show how to save, update and delete records by using EntityManager, Query interface:
+Programs:
+* SpringBootDataJPAApplication11Application.java
+* ProductController.java
+* Product.java
+* ProductCustomRepository.java
+* ProductCustomRepositoryImpl.java
+* ProductService.java
+* ProductServiceImpl.java
+Notes:
+* By using EntityManager interface we can insert, update and delete records from DB.
+* The persist method is used to save the record into the DB.
+* The @Transactional annotation should be placed at all save, update and delete related methods.
+* If @Transactional annotation is not present then it will throw javax.persistence.TransactionRequiredException exception.
+Output:
+From main method in SpringBootDataJPAApplication11Application class.
